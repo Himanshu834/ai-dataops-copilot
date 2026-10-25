@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Keep the data directory and its instructions, but do not commit datasets or generated tables.
+data/*
+!data/README.md
+!data/sample/
+data/sample/*
+!data/sample/.gitkeep
+
+# Personal project notes and source brief; publish the phase plan, not these files.
+/docs/PROJECT_CONTEXT.md
+/starter.md
